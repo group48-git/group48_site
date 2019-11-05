@@ -1,0 +1,303 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.content h6 {
+	font-size: 12px;
+	font-family: Oswald;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+
+.content .af-hero h6 {
+	font-size: 12px;
+	font-family: Oswald;
+	text-transform: uppercase;
+	color: white;
+}
+
+.content h4 {
+	font-size: 36px;
+	font-family: Teko;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 200;
+}
+
+.af-hero h6 {
+	padding-bottom: 70px;
+}
+
+.content h1 {
+	font-size: 60px;
+	font-family: Teko;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: white;
+}
+
+.content .section h1 {
+	color: black;
+	width: 500px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.content p {
+	font-family: Open Sans;
+	font-weight: 300;
+	color: #757575;
+	text-align: left;
+	line-height: 1.64;
+}
+
+.af-hero-image {
+	height: 50%;
+	width: 100%;
+	opacity: 0.8;
+	border-bottom: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.overlay {
+	background-color: black;
+}
+
+.af-hero h1 {
+	position: absolute;
+	top: 40%;
+  	left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.af-hero h6 {
+	position: absolute;
+	top: 37%;
+  	left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section {
+	padding: 120px 30px 0px;
+}
+
+.sub-section {
+	padding: 0px 60px;
+	height: auto;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.sub-section-lt h6 {
+	text-align: center;
+}
+
+.sub-section-ct {
+	padding: 100px 0px;
+	margin-right: /*30*/0px;
+}
+
+.sub-section-ct img {
+	left: 20%;
+}
+
+.sub-section-ct2 {
+	padding: 100px 0px;
+	margin-right: /*30*/0px;
+}
+
+.sub-section-ct2 img {
+	padding-left: 150px;
+}
+
+
+.mtad {
+	width: 750px;
+	height: 245px;
+	margin-left: auto;
+	margin-right: auto;
+	/*text-align: center;*/
+} 
+
+.text {
+	float: right;
+	width: 350px;
+}
+
+.title-group {
+	float: left;
+	width: 350px;
+}
+
+#image1, #image2 {
+	width: 800px;
+	height: auto;
+	z-index: 1;
+	display: block;
+}
+
+
+.blurb {
+	padding: 35px 45px;
+	width: 350px;
+	height: auto;
+	background-color: black;
+	border-left: 4px solid #999;
+	z-index: 5;
+	margin-left: 200px;
+	margin-top: -100px;
+	display: block;
+}
+
+.blurb2 {
+	padding: 35px 45px;
+	width: 350px;
+	height: auto;
+	background-color: black;
+	border-left: 4px solid #999;
+	z-index: 5;
+	margin-left: 200px;
+	margin-top: -100px;
+	display: block;
+}
+
+.blurb p {
+	color: white;
+}
+
+.sm-blurb {
+	width: 350px;
+	height: 250px;
+	padding: 35px 45px;
+	font-size: 12px;
+	float: right;
+	/*margin-left: 250px;*/
+	margin-left: 660px;
+	margin-top: -80px;
+	position: fixed;
+	margin-bottom: 40px;
+}
+
+.sm-blurb p {
+}
+
+
+
+.spot {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.svg-wrapper {
+  margin-top: 0;
+  position: relative;
+  width: 150px;
+  /*make sure to use same height/width as in the html*/
+  height: 40px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px
+}
+
+#shape {
+  stroke-width: 2px;
+  fill: transparent;
+  stroke: #000000;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
+}
+
+#text {
+  margin-top: -35px;
+  text-align: center;
+  font-family: Teko;
+  font-size: 20px;
+  padding-top: 2px;
+  font-weight: 200;
+  
+}
+
+#text a {
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.1em;
+}
+/* 
+    Changing the shape on hover. I change the color of the stroke,
+make it thinner, then set it to again wrap around the entire parent element.
+*/
+
+.svg-wrapper:hover #shape {
+  stroke-dasharray: 60 0;
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke: #000000;
+}
+
+.buttons-style {
+	border: 1px solid #000000;
+	height: 60px;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-size: 18px;
+	background-color: transparent;
+	text-decoration: none;
+	color: #000000;
+	font-weight: 500;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-stretch: expanded;
+	
+    -webkit-transform:scale(2,1); /* Safari and Chrome */
+    -moz-transform:scale(2,1); /* Firefox */
+    -ms-transform:scale(2,1); /* IE 9 */
+    -o-transform:scale(2,1); /* Opera */
+    transform:scale(2,1); /* W3C */
+}
+
+.button1 a:hover {
+	color: white;
+	background-color: black;
+	-webkit-transition:all .2s ease;
+	transition:all .2s ease;
+	outline:0;
+}
+
+.button1 {
+	margin-top: 12px;
+}
+
+.right-position {
+	width: 350px;
+	height: 250px;
+	padding-top: 35px;
+	padding-right: 45px;
+	padding-left: 45px;
+	padding-bottom: 45px;
+	font-size: 12px;
+	float: right;
+	/*margin-left: 250px;*/
+	margin-left: 660px;
+	margin-top: -80px;
+	position: fixed;
+	margin-bottom: 60px;
+}
+
+.right-position p {
+	color: black;
+}
+

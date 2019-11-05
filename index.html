@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TECHMAN1 - Home</title>
+	
+<!-- Reset.css -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+	
+<!-- Menu styling -->
+<link rel="stylesheet" type="text/css" href="css/menu-tester-css-final.css">
+<link rel="stylesheet" type="text/css" href="css/menu-css.css">
+
+<!-- Homepage styling -->
+<link rel="stylesheet" type="text/css" href="css/homestyle.css">
+	
+<!-- Footer styling -->
+<link rel="stylesheet" type="text/css" href="css/af-footer-style.css">
+	
+<!-- Roboto and Oswald fonts -->
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet">
+	
+<!-- Teko font -->
+<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+<!-- MENU -->
+	
+	<div class="full-menu">
+		<div class="logo">
+			<h1><a href="index.html">TECHMAN1</a></h1>
+		</div>
+		<div class="menu-wrap">
+			<input type="checkbox" class="toggler">
+			<div class="hamburger"><div></div></div>
+			<div class="menu">
+				<div>
+					<div>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="sidepage-template.html">About</a></li>
+							<button type="button" class="collapsible">Services +</button>
+								<div class="menu-content">
+								  <li><a href="sidepage-template.html">Construction</a></li>
+								  <li><a href="sidepage-template.html">Cyber Training</a></li>
+								  <li><a href="sidepage-template.html">Cyber Deception</a></li>
+								  <li><a href="sidepage-template.html">HR Services</a></li>
+								  <li><a href="sidepage-template.html">Innovation Services</a></li>
+								  <li><a href="sidepage-template.html">IT Services</a></li>
+								  <li><a href="sidepage-template.html">Physical Security</a></li>
+								</div>
+							<li><a href="sidepage-template.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Script for collapsible in menu -->
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight){
+			  content.style.maxHeight = null;
+			} else {
+			  content.style.maxHeight = content.scrollHeight + "px";
+			}
+		  });
+		}
+	</script>
+	
+	
+<!-- HOME HERO -->
+	
+	<div class="home-hero">
+	    <div class="hero-overlay">
+		    <img alt="Home hero image" src="images/index-hero-blue.jpg" class="home-hero-image">
+	    </div>
+	    <h1>Explore Innovation</h1>
+	</div>
+	
+
+<!-- FIRST CONTENT SECTION -->
+	
+	<div class="home-content1">
+		<h6>What Is TM1?</h6>
+		<h4>How We Make A Difference</h4>
+		<p>Pure Technological Innovation. Nam aliquam sem et tortor consequat id porta nibh. Aliquam ultrices sagittis orci a. Ut eu sem integer vitae justo eget magna fermentum iaculis. Faucibus scelerisque eleifend donec pretium vulputate sapien. Tortor condimentum lacinia quis vel eros donec ac. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. In massa tempor nec feugiat nisl pretium fusce id.</p>
+	</div>
+	
+	
+<!-- SQUARE SERVICES -->
+	
+	<div class="sm-container">
+		<div class="item" id="box1">
+			<div class="content">
+				<h3>Cyber Training</h3>
+
+			</div>
+		</div>
+		<div class="item" id="box2">
+			<div class="content">
+				<h3>Cyber Deception</h3>
+				
+			</div>
+		</div>
+		<div class="item" id="box3">
+			<div class="content">
+				<h3>Innovation Services</h3>
+				
+			</div>
+		</div>
+		<div class="item" id="box4">
+			<div class="content">
+				<h3>IT Services</h3>
+				
+			</div>
+	    </div>
+	</div>
+	
+	
+<!-- SECOND CONTENT SECTION -->
+	
+	<div class="home-content1">
+		<h6>What We Offer</h6>
+		<h4>Our Services</h4>
+		<p>Pure Technological Innovation. Nam aliquam sem et tortor consequat id porta nibh. Aliquam ultrices sagittis orci a. Ut eu sem integer vitae justo eget magna fermentum iaculis. Faucibus scelerisque eleifend donec pretium vulputate sapien. Tortor condimentum lacinia quis vel eros donec ac. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. In massa tempor nec feugiat nisl pretium fusce id. Integer vitae justo eget magna fermentum iaculis.</p>
+	</div>
+	
+	
+<!-- SQUARE SERVICES 2 -->
+	
+	<div class="sm-container33">
+		<div class="item" id="box5">
+			<div class="content">
+				<h3>Construction</h3>
+				
+			</div>
+		</div>
+		<div class="item" id="box6">
+			<div class="content">
+				<h3>HR Services</h3>
+				
+			</div>
+		</div>
+		<div class="item" id="box7">
+			<div class="content">
+				<h3>Physical Security</h3>
+				
+			</div>
+		</div>
+	</div>
+	
+	
+<!-- THIRD CONTENT SECTION -->
+	
+	<div class="home-content1">
+		<h6>Work With Us</h6>
+		<h4>Collaborate</h4>
+		<p>Pure Technological Innovation. Nam aliquam sem et tortor consequat id porta nibh. Aliquam ultrices sagittis orci a. Ut eu sem integer vitae justo eget magna fermentum iaculis. Faucibus scelerisque eleifend donec pretium vulputate sapien. Tortor condimentum lacinia quis vel eros donec ac. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. In massa tempor nec feugiat nisl pretium fusce id. Ut eu sem integer vitae justo eget magna fermentum iaculis. Faucibus scelerisque eleifend donec pretium vulputate sapien.</p>
+		<div class="button"><a class="buttons-style" href="index.html">Get In Touch Now</a></div>
+	</div>
+	
+	
+<!-- FOOTER -->
+	
+	<div class="footer">
+		<p>TECHMAN1 | &copy; 2019 | All rights reserved.</p>
+	</div>
+	
+</body>
+</html>

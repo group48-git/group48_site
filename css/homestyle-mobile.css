@@ -1,0 +1,259 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #e9e9e9;
+}
+
+#custom-nav {
+	background-color: white;
+	font-family: Open Sans;
+	margin-bottom: 0px;
+	border: none;
+	/*padding-top: 20px;*/
+}
+
+#brand-name {
+	font-family: Jura;
+	font-weight: 500;
+	font-size: 22px;
+}
+
+.custom-active {
+	background-color: red;
+}
+
+.home-hero {
+	background-image: url(../images/hero.jpg);
+	height: 750px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text {
+	text-align: left;
+	position: absolute;
+	top: 65%;
+	left: 30%;
+	margin-left: 30px;
+	transform: translate(-50%, -50%);
+	color: #e9e9e9;
+}
+
+.active:hover {
+	background-color: #B0B0B0;
+}
+
+.section1 {
+	background-image: url(../images/architecture-hero-2.jpg);
+	height: 800px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.block1 {
+	background-color: #fff;
+	min-height: 500px;
+	margin-top: -22px;
+	width: 100%;
+}
+
+.block2 {
+	background-color: #fff;
+	min-height: 750px;
+}
+
+
+.custom-dropdown {
+	background-color: transparent;
+}
+
+.hero-text h1 {
+	font-size: 48px;
+	font-family: Jura;
+	font-weight: 800;
+	color: #e9e9e9;
+}
+
+.hero-text h2 {
+	font-size: 20px;
+	font-family: Open Sans;
+	color: #e9e9e9;
+	margin-left: 5px;
+}
+
+.section2 {
+	padding-right: 25px;
+	padding-left: 25px;
+	text-align: center;
+	padding-bottom: 110px
+}
+
+.parallax1 {
+	background-image: url("../images/architecture-hero.jpg");
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section2 h1{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 10px;
+	font-style: Jura;
+}
+
+
+.section3, .section4 {
+	padding-right: 25px;
+	padding-left: 25px;
+	text-align: center;
+	padding-top: 110px;
+}
+
+.section4 {
+	padding-bottom: 110px;
+}
+
+
+.parallax1 {
+	background-image: url("../images/architecture-hero.jpg");
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section2 h1{
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 10px;
+}
+
+.section3 h1, h3 {
+	text-align: left;
+	padding-bottom: 10px;
+	font-family: Jura;
+}
+
+.section3-title {
+	float: left;
+}
+
+.section2 p {
+	line-height: 1.64;
+	font-size: 18px;
+	color: #999;
+}
+
+.section3 p {
+	line-height: 1.64;
+	font-size: 18px;
+	width: 90%;
+	text-align: left;
+	color: #999;
+}
+
+
+.section3 h3 {
+	font-family: Open Sans;
+	/*color: #222;
+	font-size: 20px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	border: 2px solid #111;
+	padding: 12px 8px 12px 16px;
+	width: 127px;*/
+	font-size: 14px;
+	text-align: left;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-left: 5px;
+}
+
+.block2 .row {
+	display: table;
+	clear: both;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding-left: 15px; */
+}
+
+.column {
+	width: 90%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block2 .row img {
+	width: 300px;
+	height: auto;
+	padding: 30px;
+	margin-top: 10px;
+}
+
+.column p {
+	width: 90%;
+	text-align: center;
+	color: #999;
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
+
+.column h4 {
+	font-size: 14px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer {
+	margin-bottom: 60px;
+	font-size: 12px;
+	/*font-family: Open Sans;*/
+	text-align: left;
+	border-top: 1px solid #999;
+	padding-top: 60px;
+}
+
+/*.footer-cl .row h5 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}*/
+
+.footer-title h3 {
+	font-family: Jura;
+	font-weight: 500;
+}
+
+footer a:hover {
+	color: #999
+}
+
+.section4 p {
+	line-height: 1.64;
+	font-size: 18px;
+	text-align: center;
+	color: #999;
+}
+
+.ft-sec {
+	padding-bottom: 20px;
+}
+
+footer .row {
+	margin-left: 30px;
+}

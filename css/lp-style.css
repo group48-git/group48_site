@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.lp-main {
+	background-image: url(../images/architecture-hero-3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.lp-main a {
+	text-align: center;
+	background-color: transparent;
+	border: 2px solid rgb(225, 225, 225);
+	color:white;
+	text-align:center;
+	padding: 12px 8px 12px 16px;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: "Open Sans";
+	width: auto;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	-webkit-transition:all .2s ease;transition:all .2s ease;outline:0;
+	text-decoration: none;
+	/*border-radius: 30px;*/
+}
+
+.lp-main a:hover {
+	background-color: white;
+	color: #42AFFB;
+	cursor: pointer;
+}
+
+h1, h3 {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-family: Open Sans;
+	color: white;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-size: 20px;
+	width: 300px;
+	margin-bottom: 80px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.centered {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}

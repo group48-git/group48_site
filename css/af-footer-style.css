@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.footer p {
+	text-align: center;
+	font-family: Teko;
+	padding-top: 11vh;
+	color: #fff;
+	font-size: 1em;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.footer {
+	background-color: #000;
+	height: 200px;
+	width: 100%;
+}

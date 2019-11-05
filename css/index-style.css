@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.nav-title {
+	z-index: 1;
+}
+
+.nav-title a {
+  position: fixed;
+  z-index: 1;
+  left: 5%;
+  top: 5%;
+  color: #ffffff;
+  font-family: Teko;
+  font-size: 3em;
+  /*overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;*/
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  transition: transform 0.5s;
+}
+
+/* Banner Image */
+.hero-image {
+	height: 50%;
+	width: 100%;
+	opacity: 0.8;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-image: url("../images/it-services-box.jpg");
+}
+
+.hero-image img {
+	height: 50%;
+}
+
+.hero-overlay {
+	background-color: black;
+}
+
+.hero h1 {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+	/*margin-top: -40vw;*/
+	margin-left: auto;
+	margin-right: auto;
+    transform: translate(-50%, -50%);
+    font-size: 10vw;
+	font-family: Teko;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+
+.info-section1 {
+	height: 43em;
+}
+
+.info-section1 h1 {
+	font-family: Teko;
+	font-size: 4em;
+	text-align: center;
+	/*padding-top: 2em;*/
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.info-section1 h6 {
+	font-size: 12px;
+	font-family: Oswald;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: 500;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 180px;
+}
+
+.info-section1 p {
+	font-family: Open Sans;
+	font-weight: 300;
+	color: #757575;
+	line-height: 1.64;
+	font-size: 1em;
+	width: 60%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1.5em;
+}
+
+
+/* Mobile Content Code */
+@media only screen and (max-width: 480px) {
+	.info-section1 p {
+		width: 80%;
+	}
+	.info-section1 h6 {
+		padding-top: 90px;
+	}
+	
+	/* Square Menu Table */
+	.container .item {
+		height: 20vh;
+	}
+	.container33 .item {
+		height: 20vh;
+	}
+	.container .content {
+		font-size: 1.25em;
+	}
+	.container, .container33 {
+		display: none;
+	}
+	
+	/* Hero */
+	.hero h1 {
+		position: relative;
+		top: 30%;
+		transform: translate(-50%, 30%);
+	}
+	.hero img {
+		height: 60vh;
+	}
+}
+

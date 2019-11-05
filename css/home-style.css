@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h2 {
+	font-family: Teko;
+	text-transform: uppercase;
+	color: white;
+	font-size: 2em;
+	vertical-align: middle;
+	line-height: 300px;
+}
+
+
+.column {
+	text-align: center;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	/*width: 23%;*/
+	overflow: hidden;
+	width: 24%; /* Fallback */
+	width: -webkit-calc(100% / 4);
+	width: calc(100% / 4);
+	
+	height: 300px;
+	background-color: gray;
+}
+
+.column:hover {
+	color: aliceblue;
+	opacity: 0.6;
+	-webkit-transition:all .4s ease;
+	transition:all .4s ease;
+	outline:0;
+}
+
+.row:after {
+	content:"";
+	display: table;
+	clear: both;
+
+}
+
+.quick-select-bar {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	position: relative;
+}
+
+.grow {
+	transition: width 0.5s;
+	-webkit-transition: width 0.5s;
+	overflow: hidden;
+}
+
+.grow:hover {
+	width: 28%; 
+}
+
+.grow:not {
+	width: 20%;
+}
+
+#construction-bg {
+	background-image: url("../images/construction-hero.jpg");
+}
+
+/*#right-box {
+	float: right;
+} */
+
+#it-services-bg {
+	background-image: url("../images/it-services-box.jpg");
+}
+
+#cyber-deception-bg {
+	background-image: url("../images/cybersecurity-box.jpg")
+}
+
+/*.right-expand {
+	float: right;
+}

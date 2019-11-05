@@ -1,0 +1,223 @@
+/* Section 1 Style */
+
+h1 {
+  font-size: 4em;
+  font-family: Teko;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+}
+
+h4 {
+  font-size: 3em;
+	font-family: Teko;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 200;
+}
+
+h6 {
+    font-size: 0.8em;
+	font-family: Oswald;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 500;
+	padding-bottom: 0.625em;
+}
+
+p {
+    font-family: Open Sans;
+	font-weight: 300;
+	color: #757575;
+	text-align: left;
+	line-height: 1.64;
+}
+
+.section {
+	padding: 7.5em 1.875em 0em 0em;
+}
+
+.section1-header h1, h6 {
+    text-align: center;
+    color: black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1-image {
+    padding: 6.25em 0em;
+	margin-right: 0em;
+}
+
+.section1-image img {
+    padding-left: 25em
+} 
+
+.section-images {
+    width: 50em;
+	height: auto;
+	z-index: 1;
+	display: block;
+}
+
+.section-blurb {
+    padding: 2.2em 2.8em;
+	width: 22em;
+	height: auto;
+	background-color: black;
+	border-left: 0.25em solid #999;
+	z-index: 5;
+	margin-left: -5.5em;
+	margin-top: -6.25em;
+	display: block;
+}
+
+.section-blurb-info {
+    width: 31em;
+	height: auto;
+	padding-top: 3em;
+	padding-right: 3.6em;
+	padding-left: 3.6em;
+	padding-bottom: 3.6em;
+	font-size: 0.8em;
+	/*float: right;
+	margin-right: 16em;
+	margin-top: -6em;
+	margin-bottom: 3.75em;
+	background-color: #999;*/
+	display: block;
+	margin-left: 28.8em;
+	margin-top: -7em;
+}
+
+.section-blurb-info p {
+  color: black;
+}
+
+.section-button {
+  margin-top: 0.75em;
+  margin-bottom: 8em;
+}
+
+.section-button a:hover {
+  color: white;
+	background-color: black;
+	-webkit-transition:all .2s ease;
+	transition:all .2s ease;
+	outline:0;
+}
+
+.buttons-style {
+	border: 1px solid #000000;
+	height: 3.75em;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	background-color: transparent;
+	text-decoration: none;
+	color: #000000;
+	font-weight: 500;
+	padding-top: 0.2em;
+	padding-bottom: 0em;
+	padding-right: 1.8em;
+	padding-left: 1.8em;
+	font-stretch: expanded;
+    -webkit-transform:scale(2,1); /* Safari and Chrome */
+    -moz-transform:scale(2,1); /* Firefox */
+    -ms-transform:scale(2,1); /* IE 9 */
+    -o-transform:scale(2,1); /* Opera */
+    transform:scale(2,1); /* W3C */
+}
+
+.section-blurb {
+  z-index: 100;
+  position: relative;
+}
+
+.section-images {
+  z-index: 50;
+  position: relative;
+}
+
+.sbi-switch {
+	margin-left: -4em;
+}
+
+.sb-switch {
+	margin-left: 28em;
+}
+
+.si-switch {
+	width: 60em;
+	height: auto;
+}
+
+.si-switch {
+	margin-left: -7em;
+}
+
+.intro-section {
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 60px;
+	height: auto;
+	margin-bottom: 130px;
+}
+
+.title-group {
+	float: left;
+	width: 350px;
+}
+
+.title-group h6 {
+	text-align: left;
+}
+
+.title-group h4 {
+	font-size: 38px;
+}
+
+.intro-blurb {
+	font-family: Open Sans;
+	font-weight: 300;
+	color: #000;
+	text-align: left;
+	line-height: 1.64;
+	width: 400px;
+	float: right;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+
+/* Content below already in html doc */
+
+	section {
+		width: 60%;
+		/*margin: 0 auto;*/
+	}
+	.image {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	section .section-blurb-info {
+		/*margin-right: 20%;
+		margin-top: -5%*/
+	}
+	@media only screen and (max-width: 480px) {
+		.image img{
+			width: 90vw;
+		}
+		.section-blurb {
+			font-size: 0.7em;
+		}
+		
+	}
+	@media only screen and (min-width: 481px) {
+		section {
+			margin: 0 auto;
+		}
+	}

@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* CSS Document - Home Style*/
+
+/* General */
+h1 {
+    font-size: 4em;
+    font-family: Teko;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+h4 {
+    font-size: 3em;
+	font-family: Teko;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 200;
+}
+
+h6 {
+    font-size: 0.8em;
+	font-family: Oswald;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 500;
+	padding-bottom: 0.625em;
+}
+
+p {
+    font-family: Open Sans;
+	font-weight: 300;
+	color: #757575;
+	text-align: center;
+	line-height: 1.64;
+}
+
+/* Hero */
+.home-hero h1 {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+	font-family: Teko;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: white;
+}
+
+.home-hero-image {
+	height: auto;
+	width: 100%;
+	opacity: 0.8;
+	border-bottom: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-overlay {
+	/*background-color: black;*/
+	border-bottom: none;
+	height: 60%;
+}
+
+
+/* First section of content */
+.home-content1 {
+	padding-top: 8em;
+	padding-bottom: 8em;
+}
+
+.home-content1 p {
+	width: 60%;
+	padding-top: 1em;
+}
+
+.home-content1 p, h4, h6 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+/* Square Hover Section */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sm-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.sm-container .item {
+  display: grid;
+  margin: auto;
+  position: relative;
+  flex: 1;
+  text-align: center;
+  color: white;
+  transition: .3s;
+  max-width: 25%;
+  height: 50vh;
+  min-width: 10%;
+  background-color: rgba(34, 34, 34, 0.4);
+}
+.sm-container .item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center bottom;
+  background-size: cover;
+  z-index: -1;
+}
+.sm-container .item:nth-of-type(odd):before {
+  /*background-image: url("https://images.unsplash.com/photo-1461824873593-ef8653c8dc3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");*/
+}
+
+.sm-container .item:nth-of-type(1):before {
+  background-image: url("../images/cyber-security-mono-cover.jpg");
+} 
+.sm-container .item:nth-of-type(2):before {
+  background-image: url("../images/cyber-deception-mono-cover.jpg");
+}
+.sm-container .item:nth-of-type(3):before {
+  background-image: url("../images/innovation-services-cover.jpg");
+}
+.sm-container .item:nth-of-type(4):before {
+  background-image: url("../images/it-services-mono-cover.jpg");
+}
+
+
+/*#box1 {
+  background-image: url("../images/cyber-security-mono-cover.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}*/
+.sm-container .item:nth-of-type(even):before {
+  /*background-image: url("https://images.unsplash.com/photo-1495714096525-285e85481946?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");*/
+}
+.sm-container .item:hover {
+  transition: .5s;
+  max-width: 40% !important;
+  flex-grow: 2;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(0, 128, 255, 0.4);
+}
+.sm-container .item:hover p {
+  -webkit-transform: none;
+          transform: none;
+  transition: .3s;
+}
+.sm-container .content {
+  margin: auto;
+  font-size: 1.75em;
+  font-family: Teko;
+  text-transform: uppercase;
+}
+
+/* Square Hover Section 2 */
+.sm-container33 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.sm-container33 .item {
+  display: grid;
+  margin: auto;
+  position: relative;
+  flex: 1;
+  text-align: center;
+  color: white;
+  transition: .3s;
+  max-width: 33.3333%;
+  height: 50vh;
+  min-width: 10%;
+  background-color: rgba(34, 34, 34, 0.4);
+}
+.sm-container33 .item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center bottom;
+  background-size: cover;
+  z-index: -1;
+}
+.sm-container33 .item:nth-of-type(odd):before {
+  /*background-image: url("https://images.unsplash.com/photo-1461824873593-ef8653c8dc3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");*/
+}
+.sm-container33 .item:nth-of-type(even):before {
+  /*background-image: url("https://images.unsplash.com/photo-1495714096525-285e85481946?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");*/
+}
+.sm-container33 .item:nth-of-type(1):before {
+  background-image: url("../images/construction-mono-cover.jpg");
+}
+.sm-container33 .item:nth-of-type(2):before {
+  background-image: url("../images/hr-services-mono-cover.jpg");
+}
+.sm-container33 .item:nth-of-type(3):before {
+  background-image: url("../images/physical-security-mono-cover.jpg");
+}
+.sm-container33 .item:hover {
+  transition: .5s;
+  max-width: 40% !important;
+  flex-grow: 2;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(0, 128, 255, 0.4);
+}
+.sm-container33 .item:hover p {
+  -webkit-transform: none;
+          transform: none;
+  transition: .3s;
+}
+.sm-container33 .content {
+  margin: auto;
+  font-size: 1.75em;
+  font-family: Teko;
+  text-transform: uppercase;
+}
+
+
+/* Button style */
+.buttons-style {
+	border: 1px solid #000000;
+	height: 60px;
+	font-family: Teko;
+	text-transform: uppercase;
+	font-size: 18px;
+	background-color: transparent;
+	text-decoration: none;
+	color: #000000;
+	font-weight: 500;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-stretch: expanded;
+	
+    -webkit-transform:scale(2,1); /* Safari and Chrome */
+    -moz-transform:scale(2,1); /* Firefox */
+    -ms-transform:scale(2,1); /* IE 9 */
+    -o-transform:scale(2,1); /* Opera */
+    transform:scale(2,1); /* W3C */
+}
+
+.button a:hover {
+	color: white;
+	background-color: black;
+	-webkit-transition:all .2s ease;
+	transition:all .2s ease;
+	transition-timing-function: ease-out;
+	outline:0;
+}
+
+.button {
+	margin-top: 3em;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+

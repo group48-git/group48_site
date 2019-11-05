@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Menu</title>
+
+<!-- Reset.css -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+	
+<!-- Menu styling -->
+<link rel="stylesheet" type="text/css" href="css/menu-tester-css-final.css">
+<link rel="stylesheet" type="text/css" href="css/menu-css.css">
+	
+<!-- Roboto and Oswald fonts -->
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet">
+	
+<!-- Teko font -->
+<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+	.outer {
+		background-color: aqua;
+	}
+	.full-menu {
+		width: full;
+		height: 90px;
+		position: fixed;
+		background-color: rgba(0,0,0,0.84);
+		z-index: 100;
+	}
+	.logo h1 {
+		padding: 30px;
+		font-family: Teko;
+		font-size: 2em;
+		text-align: left;
+		z-index: 100;
+		color: #fff;
+	}
+	.hamburger {
+		margin-top: 15px;
+		margin-right: 10px;
+	}
+	.menu-wrap .hamburger {
+		background: transparent;
+	}
+	
+	/* Collapsible styling */
+	.collapsible {
+	    background-color: transparent;
+	    color: white;
+	    cursor: pointer;
+	    padding: 18px;
+	    width: 100%;
+	    border: none;
+	    text-align: center;
+	    outline: none;
+	    font-size: 30px;
+		font-family: Open Sans;
+	}
+
+	.active, .collapsible:hover {
+	    background-color: transparent;
+	}
+
+	.content {
+	    padding: 0 18px;
+		max-height: 0;
+	    overflow: hidden;
+	    background-color: transparent;
+		transition: max-height 0.4s ease-out;
+	}
+	.content a {
+		text-decoration: none;
+		line-height: 2.1;
+	}
+	
+</style>
+	
+</head>
+
+<body>
+	<div class="outer">
+	<div class="full-menu">
+		<div class="logo">
+			<h1><a href="index.html">TECHMAN1</a></h1>
+		</div>
+		<div class="menu-wrap">
+			<input type="checkbox" class="toggler">
+			<div class="hamburger"><div></div></div>
+			<div class="menu">
+				<div>
+					<div>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="sidepage-template.html">About</a></li>
+							<button type="button" class="collapsible">Services +</button>
+								<div class="menu-content">
+								  <li><a href="sidepage-template.html">Construction</a></li>
+								  <li><a href="sidepage-template.html">Cyber Training</a></li>
+								  <li><a href="sidepage-template.html">Cyber Deception</a></li>
+								  <li><a href="sidepage-template.html">HR Services</a></li>
+								  <li><a href="sidepage-template.html">Innovation Services</a></li>
+								  <li><a href="sidepage-template.html">IT Services</a></li>
+								  <li><a href="sidepage-template.html">Physical Security</a></li>
+								</div>
+							<li><a href="sidepage-template.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div style="background-color: #000; height: 90px; position: fixed; width: 100%;"></div>
+	
+	<div style="height: 1080px; background-color: grey;">
+	</div>
+	
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.maxHeight){
+		  content.style.maxHeight = null;
+		} else {
+		  content.style.maxHeight = content.scrollHeight + "px";
+		}
+	  });
+	}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sidepage Template</title>
+	
+<!-- Reset.css -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+	
+<!-- Menu styling -->
+<link rel="stylesheet" type="text/css" href="css/menu-tester-css-final.css">
+<link rel="stylesheet" type="text/css" href="css/menu-css.css">
+	
+<!-- Hero styling -->
+<link rel="stylesheet" type="text/css" href="css/hero-style.css" media="screen and (min-width: 481px)">
+	
+<!-- Section styling -->
+<link rel="stylesheet" type="text/css" href="css/section1-style copy.css">
+	
+<!-- Footer styling -->
+<link rel="stylesheet" type="text/css" href="css/af-footer-style.css">
+	
+<!-- Roboto and Oswald fonts -->
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet">
+	
+<!-- Teko font -->
+<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+	
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+	
+</head>
+
+<body>
+	
+<!-- MENU -->
+	
+	<div class="full-menu">
+		<div class="logo">
+			<h1><a href="index.html">TECHMAN1</a></h1>
+		</div>
+		<div class="menu-wrap">
+			<input type="checkbox" class="toggler">
+			<div class="hamburger"><div></div></div>
+			<div class="menu">
+				<div>
+					<div>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="sidepage-template.html">About</a></li>
+							<button type="button" class="collapsible">Services +</button>
+								<div class="menu-content">
+								  <li><a href="sidepage-template.html">Construction</a></li>
+								  <li><a href="sidepage-template.html">Cyber Training</a></li>
+								  <li><a href="sidepage-template.html">Cyber Deception</a></li>
+								  <li><a href="sidepage-template.html">HR Services</a></li>
+								  <li><a href="sidepage-template.html">Innovation Services</a></li>
+								  <li><a href="sidepage-template.html">IT Services</a></li>
+								  <li><a href="sidepage-template.html">Physical Security</a></li>
+								</div>
+							<li><a href="sidepage-template.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bh-menu" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></div>
+	<!--<script>
+	  AOS.init();
+	</script> -->
+	<!-- Script for collapsible in menu -->
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight){
+			  content.style.maxHeight = null;
+			} else {
+			  content.style.maxHeight = content.scrollHeight + "px";
+			}
+		  });
+		}
+	</script>
+	
+	
+<!-- HERO -->
+	
+	<div class="hero">
+		<div class="hero-overlay">
+			<img alt="Broaden Your Horizons" src="images/construction-hero.jpg" class="hero-image">
+		</div>
+		<h6>T e m p l a t e</h6>
+		<h1>Pick your content</h1>
+	</div>
+
+<!-- SECTIONS -->
+
+	<br> 
+	<br>
+	<br>
+	<br>
+	<br> 
+	<br>
+	<br>
+	<br>
+	
+	<div class="intro-section">
+		<div class="title-group">
+			<h6>Here is a small title</h6>
+			<h4>Find more services. Describe now.</h4>
+			<br>
+		</div>
+		<div class="intro-blurb">
+			<p>This solution is the world’s first self-learning solar water heater that learns the user's showering habits as a means to improve power utilization and free the client from ever dealing with technical or operational issues.</p>
+		</div>
+	</div>
+	
+	<br> 
+	<br>
+	<br>
+	<br>
+	<br> 
+	<br>
+	<br>
+	<br>
+	
+	<section>
+		<div class="image">
+			<img class="section-images" src="images/construction-hero.jpg" alt="hero">
+				<p class="section-blurb">This solution is the world’s first self-learning solar water heater that learns the user's showering habits as a means to improve power utilization and free the client from ever dealing with technical or operational issues.</p>
+			
+		</div>
+		<div class="section-blurb-info">
+			<p>Once purchased, the device is then delivered to the customer's house and automatically calls for a nearby technician to perform installation. The customer doesn’t have to touch a thing!<br><br>If it ever encounters a malfunction, it will automatically notify a technician and call for repair.<br><br>This device’s autonomous characteristics were designed for the sole purpose of minimizing operational expenses such as customer support, in-house technicians and operations management, all of which are almost entirely unnecessary.<br><br>Technicians will be employed as freelancers and will be paid on a per visit basis.<br><br>Since the device automatically detects faults and calls for a technician, the number of customer and technical support personnel will be kept to a minimum.</p>
+		</div>
+	</section>
+	<br> 
+	<br>
+	<br>
+	<br>
+	<br> 
+	<br>
+	<br>
+	<br>
+	
+	<section>
+		<div class="image">
+			<img class="section-images si-switch" src="images/construction-hero.jpg" alt="hero">
+				<p class="section-blurb sb-switch">This solution is the world’s first self-learning solar water heater that learns the user's showering habits as a means to improve power utilization and free the client from ever dealing with technical or operational issues.</p>
+			
+		</div>
+		<div class="section-blurb-info sbi-switch">
+			<p>Once purchased, the device is then delivered to the customer's house and automatically calls for a nearby technician to perform installation. The customer doesn’t have to touch a thing!<br><br>If it ever encounters a malfunction, it will automatically notify a technician and call for repair.<br><br>This device’s autonomous characteristics were designed for the sole purpose of minimizing operational expenses such as customer support, in-house technicians and operations management, all of which are almost entirely unnecessary.<br><br>Technicians will be employed as freelancers and will be paid on a per visit basis.<br><br>Since the device automatically detects faults and calls for a technician, the number of customer and technical support personnel will be kept to a minimum.</p>
+		</div>
+	</section>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br> 
+	<br>
+	<br>
+	<br>
+	
+<!-- FOOTER --> 
+	
+	<div class="footer">
+		<p>TECHMAN1 | &copy; 2019 | All rights reserved.</p>
+	</div>
+	
+</body>
+</html>
