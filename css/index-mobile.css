@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* Mobile CSS for Index */
+
+@media only screen and (max-width: 480px) {
+	.home-hero h1 {
+		position: absolute;
+		top: 17%;
+		left: 35%;
+		transform: translate(-20%, -20%);
+		font-size: 40px;
+	}
+	.home-content1 p {
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 77%;
+	}
+	.home-content1 h4 {
+		width: 80%;
+	}
+}
