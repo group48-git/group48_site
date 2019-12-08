@@ -226,6 +226,7 @@
 }
 
 
+/* Menu styling for mobile */
 @media only screen and (max-device-width: 480px) {
 	.menu-wrap .toggler {
 		width: 75px;
@@ -250,12 +251,24 @@
 	}
 	.menu a {
 		font-family: Open Sans;
-		font-size: 60px;
+		font-size: 55px;
 		color: #fff;
 		-webkit-transition:all .2s ease;
 		transition:all .2s ease;
 	}
 	.collapsible {
-		font-size: 60px;
+		font-size: 55px;
+	}
+	.logo h1 {
+		font-size: 50px;
+		margin-top: 24px;
+		margin-left: 20px;
+	}
+	.menu-background {
+		background-color: #000;
+		height: 150px;
+		position: fixed;
+		width: 100%;
+		z-index: 50;
 	}
 }
