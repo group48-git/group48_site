@@ -25,8 +25,10 @@
 }
 
 .hero-image {
-	height: 50%;
-	width: 100%;
+  height: 70vh;
+  max-width: 100%;
+  width: auto;
+
 	opacity: 0.8;
 	border-bottom: none;
 	background-position: center;
@@ -37,4 +39,11 @@
 
 .hero-overlay {
 	background-color: black;
+}
+
+#hero-id-template {
+  background-image: url("../images/construction-hero.jpg");
+}
+#hero-id-energy {
+  background-image: url("../images/solar-ed-hero.jpg");
 }

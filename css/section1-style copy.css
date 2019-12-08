@@ -52,7 +52,7 @@ p {
 
 .section1-image img {
     padding-left: 25em
-} 
+}
 
 .section-images {
     width: 50em;
@@ -198,25 +198,121 @@ p {
 		width: 60%;
 		/*margin: 0 auto;*/
 	}
-	.image {
+	/*.image {
 		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 	}
 	section .section-blurb-info {
 		/*margin-right: 20%;
-		margin-top: -5%*/
-	}
-	@media only screen and (max-width: 480px) {
+		margin-top: -5%
+	}*/
+	@media only screen and (max-device-width: 480px) {
 		.image img{
 			width: 90vw;
 		}
 		.section-blurb {
 			font-size: 0.7em;
+      padding-top: 60px;
 		}
-		
+    .intro-section {
+      padding: 0 30px;
+      margin-bottom: 0px;
+    }
+
+
+    .intro-section {
+    	width: 89%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding: 0px 0px;
+    	height: auto;
+      padding-left: 100px;
+      margin-top: -110px;
+    }
+
+    .title-group {
+    	float: left;
+    	width: 75%;
+
+    }
+
+    .title-group h6 {
+    	text-align: left;
+      font-size: 15px;
+      padding-bottom: 30px;
+      margin-left: 2px;
+    }
+
+    .title-group h4 {
+    	font-size: 80px;
+    }
+
+    .intro-blurb {
+    	font-family: Open Sans;
+    	font-weight: 300;
+    	color: #000;
+    	text-align: left;
+    	line-height: 1.64;
+    	width: 100%;
+    	float: left;
+      padding-right: -60px;
+
+    	/*margin-left: auto;
+    	margin-right: auto;*/
+    }
+    .intro-blurb p {
+      font-size: 18px;
+      width: 80%;
+      padding-bottom: 170px;
+      border-right: 0px;
+    }
+    p {
+      border-right: 0px;
+    }
+
+
+    .section-images {
+    	z-index: 1;
+    	display: block;
+      width: 100%;
+  	  max-width: 175%;
+  	  height: auto;
+    }
+    .image {
+      width: 100%;
+    }
+    .section-blurb {
+      padding: 2.2em 2.8em;
+    	width: 120%;
+    	height: auto;
+    	background-color: black;
+    	border-left: 0.25em solid #999;
+    	z-index: 5;
+    	margin-left: 0em;
+    	margin-top: -3.25em;
+    	display: block;
+    }
+    .image p {
+      font-size: 30px;
+    }
+    .section-blurb-info {
+      width: 175%;
+    	height: auto;
+    	padding-top: 2em;
+    	padding-right: 3.6em;
+    	padding-left: 4.3em;
+    	padding-bottom: 3.6em;
+      font-size: 16px !important;
+    	display: block;
+    	margin-left: 1em;
+    	margin-top: 50px;
+    }
+
+
+
 	}
-	@media only screen and (min-width: 481px) {
+	@media only screen and (min-device-width: 481px) {
 		section {
 			margin: 0 auto;
 		}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document - Mobile Hero Style*/
+
+@media only screen and (max-device-width: 480px) {
+  .hero-image {
+  	height: 45vh;
+  	max-width: 100%;
+    width: auto;
+  	opacity: 0.8;
+  	border-bottom: none;
+  	/*background-position: center;
+  	background-repeat: no-repeat;*/
+  	background-size: cover;
+  	/*position: relative;*/
+  }
+
+  #hero-id-template {
+    background-image: url("../images/construction-hero.jpg");
+  }
+  #hero-id-energy {
+    background-image: url("../images/solar-ed-hero.jpg");
+  }
+
+  .hero-overlay {
+  	background-color: black;
+  }
+  .hero h6 {
+    font-size: 20px;
+  	font-family: Oswald;
+  	text-transform: uppercase;
+  	color: white;
+    padding-bottom: 70px;
+    position: absolute;
+  	top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero h1 {
+  	position: absolute;
+  	top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+  	font-family: Teko;
+  	font-weight: 500;
+  	text-transform: uppercase;
+  	color: white;
+  }
+}
