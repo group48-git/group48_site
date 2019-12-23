@@ -191,6 +191,25 @@ p {
 	margin-right: auto;*/
 }
 
+.topic-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.topic-boxes > div{
+  width: 25%;
+  margin: 30px;
+}
+
+.topic-boxes h4 {
+  font-size: 38px;
+}
+
+.topic-boxes p {
+  font-size: 0.8em;
+  /*color: black;*/
+}
+
 
 /* Content below already in html doc */
 
