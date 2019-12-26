@@ -194,6 +194,7 @@ p {
 .topic-boxes {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .topic-boxes > div{
@@ -326,6 +327,12 @@ p {
     	display: block;
     	margin-left: 1em;
     	margin-top: 50px;
+    }
+
+    .topic-boxes {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
     }
 
 
