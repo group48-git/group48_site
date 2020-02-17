@@ -23,11 +23,17 @@
   #hero-id-hr {
     background-image: url("../images/human-resources-hero.jpg");
   }
+  #hero-id-hr-ias {
+    background-image: url("../images/human-resources-ias-hero.jpg");
+  }
   #hero-id-innovation {
     background-image: url("../images/innovation-services-hero.jpg");
   }
   #hero-id-cybert {
     background-image: url("../images/cyber-training-hero.jpg");
+  }
+  #hero-id-cyberd {
+    background-image: url("../images/cyber-deception-hero.jpg");
   }
   #hero-id-construction {
     background-image: url("../images/construction-services-hero.jpg");
