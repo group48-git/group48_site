@@ -216,6 +216,9 @@ p {
   justify-content: center;
   /*flex-wrap: wrap;*/
 }
+#wide-box > div{
+  width: 55%;
+}
 
 /* Bulleted Lists */
 .tabbed {
@@ -356,6 +359,15 @@ ul.bulleted-twice {
       display: flex;
       justify-content: center;
     }
+    .topic-boxes > div{
+      width: 80%;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #wide-box > div{
+  		width: 80%;
+  	}
 
 
 
