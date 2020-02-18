@@ -33,9 +33,9 @@ p {
 	line-height: 1.64;
 }
 
-.section {
+/*.section {
 	padding: 7.5em 1.875em 0em 0em;
-}
+}*/
 
 .section1-header h1, h6 {
     text-align: center;
@@ -210,6 +210,28 @@ p {
   font-size: 0.8em;
   /*color: black;*/
 }
+
+#wide-box-section {
+  display: flex;
+  justify-content: center;
+  /*flex-wrap: wrap;*/
+}
+
+/* Bulleted Lists */
+.tabbed {
+  padding-left: 15px;
+  line-height: 1.94;
+}
+ul.bulleted {
+  list-style-type: square;
+  margin-left: 40px;
+  padding-right: 0;
+}
+ul.bulleted-twice {
+  list-style-type: square;
+  margin-left: 50px;
+}
+
 
 
 /* Content below already in html doc */

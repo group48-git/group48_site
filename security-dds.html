@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Drone Detection System - Security Department</title>
+
+<!-- Reset.css -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+<!-- Menu styling -->
+<link rel="stylesheet" type="text/css" href="css/menu-tester-css-final.css">
+<link rel="stylesheet" type="text/css" href="css/menu-css.css">
+
+<!-- Hero styling -->
+<link rel="stylesheet" type="text/css" href="css/hero-style.css" media="screen and (min-device-width: 481px)">
+<link rel="stylesheet" type="text/css" href="css/mobile-hero-style.css" media="screen and (max-device-width: 480px)">
+
+<!-- Section styling -->
+<link rel="stylesheet" type="text/css" href="css/section1-style copy.css">
+
+<!-- Footer styling -->
+<link rel="stylesheet" type="text/css" href="css/af-footer-style.css">
+
+<!-- Roboto and Oswald fonts -->
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet">
+
+<!-- Teko font -->
+<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<style>
+	.hero h6 {
+		white-space: pre;
+	}
+	.footer p {
+		white-space: pre;
+	}
+	.hero-overlay {
+		background-color: black;
+	}
+	.tabbed {
+		padding-left: 30px;;
+	}
+	.tabbed-twice {
+		padding-left: 60px;;
+	}
+	.rotate90 {
+		-webkit-transform:rotate(90deg);
+	  -moz-transform: rotate(90deg);
+	  -ms-transform: rotate(90deg);
+	  -o-transform: rotate(90deg);
+	  transform: rotate(90deg);
+		margin-left: -250px;
+		margin-bottom: -650px;
+	}
+	.push-down {
+		padding-top: 380px;
+	}
+	.move-up {
+		margin-top: -320px;
+	}
+	#wide-box > div{
+		width: 55%;
+	}
+</style>
+
+</head>
+
+<body>
+
+<!-- MENU -->
+
+	<div class="full-menu">
+		<div class="logo">
+			<h1><a href="index.html">Group 48</a></h1>
+		</div>
+		<div class="menu-wrap">
+			<input type="checkbox" class="toggler">
+			<div class="hamburger"><div></div></div>
+			<div class="menu">
+				<div>
+					<div>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="sidepage-template.html">About Us</a></li>
+							<button type="button" class="collapsible">Departments +</button>
+								<div class="menu-content">
+								  <li><a href="construction-services.html">Construction</a></li>
+								  <li><a href="cyber-training.html">Cyber Training</a></li>
+								  <li><a href="cyber-deception.html">Cyber Deception</a></li>
+								  <li><a href="human-resources.html">HR Services</a></li>
+								  <li><a href="innovation-services.html">Innovation Services</a></li>
+								  <li><a href="sidepage-template.html">IT Services</a></li>
+								  <li><a href="sidepage-template.html">Physical Security</a></li>
+									<li><a href="solar-services.html">Solar Services</a></li>
+								</div>
+							<li><a href="sidepage-template.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu-background"></div>
+	<!--<div class="bh-menu" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></div> -->
+	<!--<script>
+	  AOS.init();
+	</script> -->
+	<!-- Script for collapsible in menu -->
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight){
+			  content.style.maxHeight = null;
+			} else {
+			  content.style.maxHeight = content.scrollHeight + "px";
+			}
+		  });
+		}
+	</script>
+
+
+<!-- HERO -->
+
+	<div class="hero">
+		<div class="hero-overlay">
+			<!-- Assign a new hero id per every page -->
+			<div alt="Broaden Your Horizons" class="hero-image" id="hero-id-secur-dds"></div>
+		</div>
+		<h6>S E C U R I T Y   D E P A R T M E N T</h6>
+		<h1>Drone Detection System</h1>
+	</div>
+
+<!-- SECTIONS -->
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<!--
+	<div class="intro-section">
+		<div class="title-group">
+			<h6>Dependability</h6>
+			<h4>Freeing Your Bottom</h4>
+			<h4>Line from Risks.</h4>
+			<br>
+		</div>
+		<div class="intro-blurb">
+			<p>Globally, internal fraud costs companies nearly $3.7 trillion each year and $50 million a year to a company with 10,000 employees (ACFE, 2018).</p>
+			<br>
+			<p>Predictico's pre-occurrence risk platform is able to provide a precise early warning before risk occurs. It does so by capturing multiple layers of validated behavioural data from a variety of untapped enterprise data sources and applying AI-based heuristics and machine learning tools to identify atypical behavioural trends and patterns.</p>
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<section class="push-down">
+		<div class="image">
+			<img class="section-images rotate90" src="images/construction-hero.jpg" alt="hero">
+				<p class="section-blurb">We help innovative industries, substituting products and services, crafting new digital business, re-configuring your delivery models and re-thinking your value propositions. An exciting journey it is!</p>
+
+		</div>
+		<div class="section-blurb-info move-up">
+			<p>Companies want to innovate. But, innovation is wasted if you can’t follow through with execution. To realise the return on a stroke of genius, an organisation must move a project from conception to market. They must be willing to scrap ideas, no matter how brilliant, if they don’t align with the organisation’s overall strategy. Innovation most often succeeds – and earns a return on investment – when it is part of an organisation’s culture. So, what separates an innovative company from its peers?</p>
+			<p>Building Innovation from the Business Unit Up: The Steps You’re Not Taking are Holding You Back discusses:</p>
+			<br>
+			<p class="tabbed">The seven common characteristics of truly innovative companies</p>
+			<br>
+			<p class="tabbed">The impact of poor project leadership on innovation, and how to change it</p>
+			<br>
+			<p class="tabbed">Questions to ask to measure if your company is ready to innovate</p>
+			<br>
+			<p>One of the strategic priorities for a business leader is to drive innovation — but a key pain point and barrier to achievement is a lack of ability to do that, hindered by a variety of challenges that span everything from resourcing concerns to process failure. This piece offers guidance on the steps most leaders miss that will greatly improve their ability to drive innovation at the business unit level.</p>
+			<p>Your enterprise needs constant innovation. We help you stand out and speed up your innovation by being disruptive. Need to innovate faster and more cost-effectively? We are here to help. From turning ideas into prototypes, to understanding what emerging technologies are available, to aligning innovation with business priorities, making innovation a part of your DNA, to testing ideas on real customers without putting your brand at stake.</p>
+			<p></p>
+		</div>
+	</section>
+	<br>
+	<br>
+	<br>
+	<br>
+-->
+	<div class="topic-boxes">
+		<div>
+			<h4>Guidelines for Building The Solution</h4>
+			<br>
+			<p class="tabbed">Ease of use</p>
+			<br>
+			<p class="tabbed">Detection quality (Low FAR, High threat discovery rate)</p>
+			<br>
+			<p class="tabbed">Operate the operator - Send an alert to the relevant authorities for immediate handling, instruct operator on pre-defined required actions)</p>
+		</div>
+		<div>
+			<h4>System Work Methodology</h4>
+			<br>
+			<p>In order to ensure system classification, we use triple-factor detection:</p>
+			<br>
+			<p class="tabbed">Factor 1 – RF behaviour</p>
+			<br>
+			<p class="tabbed">Factor 2 – Video analytics</p>
+			<br>
+			<p class="tabbed">Factor 3 – Operator final detection</p>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="topic-boxes">
+		<div>
+			<h4>System Armed (Scanning)</h4>
+			<br>
+			<p>While the system is scanning and there are no drones on scope, the indicator screen stays green</p>
+		</div>
+		<div>
+			<h4>Stage 1 - RF (Radio Frequency) Detection</h4>
+			<br>
+			<p>When a drone is detected by the RF system, the indication screen turns orange</p>
+			<br>
+			<p>At this stage, the system is now armed and video analytics goes into action for verification</p>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="topic-boxes">
+		<div>
+			<h4>Stage 2 - Analytics Detection</h4>
+			<br>
+			<p>Once the video analytics system detects suspicious movement in the area, it will alert the operator and the section indicator will turn red, marking a verified drone detection</p>
+		</div>
+		<div>
+			<h4>Stage 3 - Operator Final Visualization & Classification</h4>
+			<br>
+			<p>The operator takes control of the PTZ (Pan, Tilt, Zoom) camera and follows the suspected object until they can make a verified and certain identification</p>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="topic-boxes">
+		<div>
+			<h4>Factor 1 - Radio Frequency Signature</h4>
+			<br>
+			<p>Each device has its own communication characteristics: The component we developed studies the RF activity in the air, and classifies and categorizes monitored RF patterns for wireless behaviour, RF signal type, and radio signature</p>
+			<br>
+			<p>Our system looks for suspected drone patterns, and raises an alert once a drone is within the range of approximately one kilometer</p>
+		</div>
+		<div>
+			<h4>System Benefits</h4>
+			<br>
+			<p>Thanks to the three-factor alert authentication, issued alerts are highly accurate and reliable</p>
+			<br>
+			<p>The interface is easy to use and intuitive to the user, even for novice operators</p>
+			<br>
+			<p>Ability to track objects in real-time</p>
+			<br>
+			<p>Adaptable to the environment</p>
+		</div>
+	</div>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+
+<!-- FOOTER -->
+
+	<div class="footer">
+		<p>GROUP 48 LTD | &copy; 2020 | All rights reserved.</p>
+	</div>
+
+</body>
+</html>

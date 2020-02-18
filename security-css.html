@@ -1,0 +1,373 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>City Safety Solution - Security Department</title>
+
+<!-- Reset.css -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+<!-- Menu styling -->
+<link rel="stylesheet" type="text/css" href="css/menu-tester-css-final.css">
+<link rel="stylesheet" type="text/css" href="css/menu-css.css">
+
+<!-- Hero styling -->
+<link rel="stylesheet" type="text/css" href="css/hero-style.css" media="screen and (min-device-width: 481px)">
+<link rel="stylesheet" type="text/css" href="css/mobile-hero-style.css" media="screen and (max-device-width: 480px)">
+
+<!-- Section styling -->
+<link rel="stylesheet" type="text/css" href="css/section1-style copy.css">
+
+<!-- Footer styling -->
+<link rel="stylesheet" type="text/css" href="css/af-footer-style.css">
+
+<!-- Roboto and Oswald fonts -->
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet">
+
+<!-- Teko font -->
+<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<style>
+	.hero h6 {
+		white-space: pre;
+	}
+	.footer p {
+		white-space: pre;
+	}
+	.hero-overlay {
+		background-color: black;
+	}
+	.tabbed {
+		padding-left: 15px;
+		line-height: 1.94;
+	}
+	ul.bulleted {
+		list-style-type: square;
+		margin-left: 40px;
+	}
+	ul.bulleted-twice {
+		list-style-type: square;
+		margin-left: 50px;
+	}
+	.tabbed-twice {
+		padding-left: 60px;;
+	}
+	.rotate90 {
+		-webkit-transform:rotate(90deg);
+	  -moz-transform: rotate(90deg);
+	  -ms-transform: rotate(90deg);
+	  -o-transform: rotate(90deg);
+	  transform: rotate(90deg);
+		margin-left: -250px;
+		margin-bottom: -650px;
+	}
+	.push-down {
+		padding-top: 380px;
+	}
+	.move-up {
+		margin-top: -320px;
+	}
+	#wide-box > div{
+		width: 55%;
+	}
+</style>
+
+</head>
+
+<body>
+
+<!-- MENU -->
+
+	<div class="full-menu">
+		<div class="logo">
+			<h1><a href="index.html">Group 48</a></h1>
+		</div>
+		<div class="menu-wrap">
+			<input type="checkbox" class="toggler">
+			<div class="hamburger"><div></div></div>
+			<div class="menu">
+				<div>
+					<div>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="sidepage-template.html">About Us</a></li>
+							<button type="button" class="collapsible">Departments +</button>
+								<div class="menu-content">
+								  <li><a href="construction-services.html">Construction</a></li>
+								  <li><a href="cyber-training.html">Cyber Training</a></li>
+								  <li><a href="cyber-deception.html">Cyber Deception</a></li>
+								  <li><a href="human-resources.html">HR Services</a></li>
+								  <li><a href="innovation-services.html">Innovation Services</a></li>
+								  <li><a href="sidepage-template.html">IT Services</a></li>
+								  <li><a href="sidepage-template.html">Physical Security</a></li>
+									<li><a href="solar-services.html">Solar Services</a></li>
+								</div>
+							<li><a href="sidepage-template.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu-background"></div>
+	<!--<div class="bh-menu" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></div> -->
+	<!--<script>
+	  AOS.init();
+	</script> -->
+	<!-- Script for collapsible in menu -->
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight){
+			  content.style.maxHeight = null;
+			} else {
+			  content.style.maxHeight = content.scrollHeight + "px";
+			}
+		  });
+		}
+	</script>
+
+
+<!-- HERO -->
+
+	<div class="hero">
+		<div class="hero-overlay">
+			<!-- Assign a new hero id per every page -->
+			<div alt="Broaden Your Horizons" class="hero-image" id="hero-id-secur-css"></div>
+		</div>
+		<h6>S E C U R I T Y   D E P A R T M E N T</h6>
+		<h1>City Safety Solution</h1>
+	</div>
+
+<!-- SECTIONS -->
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+
+	<div class="topic-boxes" id="wide-box">
+		<div>
+			<h4>The Need for Turnkey Safe City Solutions</h4>
+			<br>
+			<p>Driven by numerous political, economical and ecological global factors, the security market is facing an increasing demand on safe city solutions. However, few solutions specialize in the efficient and flexible protection and management of urban areas.</p>
+			<br>
+			<p>System integrators have yet to choose from isolated systems to put together a complete solution that includes:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">Cameras</p></li>
+				<li><p class="tabbed">Video Management Software (VMS)</p></li>
+				<li><p class="tabbed">Physical Infrastructure Information Management (PSIM) software</p></li>
+				<li><p class="tabbed">A mobile solution</p></li>
+				<li><p class="tabbed">And many others required by their actual projects</p></li>
+			</ul>
+			<br>
+			<p>System integrators need independent ecosystems that allow for the configuration of fully integrated turnkey solutions</p>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="topic-boxes" id="wide-box">
+		<div>
+			<h4>CRISP: Independent, Modular, Comprehensive</h4>
+			<br>
+			<p>CRISP Safe City provides system integrators all they need.</p>
+			<br>
+			<p>System integrators need to concentrate on their core business: project management, constructions, installations, and services.</p>
+			<br>
+			<p>CRISP SC is an independent ecosystem offering all to integrators - from software to cameras to mobile and network devices - allowing them to concentrate on their core business.</p>
+			<br>
+			<p>CRISP SC includes the full range of command and control:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">An open and camera-independent VMS that is able to seamlessly integrate with any sensor</p></li>
+				<li><p class="tabbed">A dynamic and intelligent GIS map with full-fledged incident management features:</p></li>
+				<ul class="bulleted-twice">
+					<li><p class="tabbed">The reporting engine allows sophisticated scheduled and ad-hoc business reports</p></li>
+					<li><p class="tabbed">Due to its outstanding flexibility, it can be integrated into any kind of IT landscape</p></li>
+				</ul>
+			</ul>
+			<br>
+			<p>CRISP SC is a total state-of-the-art ecosystem:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">With the PSIM at its heart, it comes with the best-fitting cameras, sensors, security systems, and support services</p></li>
+			</ul>
+			<br>
+			<p>CRISP SC is in the vanguard of supporting security operators in order to detect, prevent, and react to security threats:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">Allows for smooth urban operations in day-to-day business</p></li>
+				<li><p class="tabbed">Enables handling of planned events, as well as unplanned incidents, emergencies, and crises</p></li>
+			</ul>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="topic-boxes" id="wide-box">
+		<div>
+			<h4>The Difference is in the Software</h4>
+			<br>
+			<p>CRISP SC has a uniquely simple graphical user interface (GUI). Driven by the motto “security made easy”, it is arguably the most intuitive system in the world, re-defining simplicity by allowing plug and play, practically without any training at all.</p>
+			<br>
+			<p>Based on end-user stories:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">In the GUI, everything is accessible within mouse clicks, drag and drop, or the turning of a joystick, fully supporting user interactions in typical urban management scenarios</p></li>
+			</ul>
+			<br>
+			<p>With dynamic tracking and routing of mobile security patrols:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">CRISP allows dynamic tracking and routing of mobile units such as security patrols or emergency vehicles, as well as sophisticated communications between the control centres and the field units</p></li>
+			</ul>
+			<br>
+			<p>Support for any sensor:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">The software integrates with any sensors in the field: cameras of various specifications, mobile devices, fire detection, alarm systems and access control systems, and many more</p></li>
+			</ul>
+			<br>
+			<p>A powerful plug-in for all kinds of analytics:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">CRISP PSIM includes a powerful plug-in for all kinds of analytics. This allows us to choose the best fit analytics module for each user scenario</p></li>
+			</ul>
+			<br>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="topic-boxes" id="wide-box">
+		<div>
+			<h4>State of Your City - Everything at Your Fingertips at Any Time</h4>
+			<br>
+			<p>Trends, statistics, benchmarks, information:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">CRISP SC offers a wide range of reporting facilities</p></li>
+				<li><p class="tabbed">Users can pre-define the events and scenario that they wish to receive regular statistics about: traffic accidents, intrusions, assaults, or anything else</p></li>
+				<li><p class="tabbed">CRISP allows a variety of reports to be made (including ad-hoc), based on various schedules</p></li>
+			</ul>
+			<br>
+			<p>To be sent to the decision makers:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">CRISP SC acts as the eyes and ears of the city leaders</p></li>
+				<li><p class="tabbed">Using various charts and geographical reports (e.g. reduction of traffic incidents in an area over the last year, growth of shop robberies over the last quarter), it allows easy benchmarking of decisions with respect to time and place</p></li>
+				<li><p class="tabbed">Decision makers have their key figures available, at any time, right at their fingertips</p></li>
+			</ul>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="topic-boxes">
+		<div>
+			<h4>Selection of References</h4>
+			<br>
+			<p>We distribute directly to system integrators/installers or primary contractors of Safe/Smart City or Critical Infrastructure projects.</p>
+			<br>
+			<p>Below is a selection of references. Please contact us for details.</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">Safe Cities in Israel: the holy city of Jerusalem, Nesher, Tirat Hacarmel, Hod Hasharon, Gan Yavne, Kirjat Motzkin, Hevel Modi’in Regional Council, Tiberias Water Corporation</p></li>
+				<li><p class="tabbed">Safe City, Barbados</p></li>
+				<li><p class="tabbed">World Economic Summits, Switzerland and China</p></li>
+				<li><p class="tabbed">Prime Minister Department, Israel</p></li>
+				<li><p class="tabbed">Ministry of Social Affairs, Israel</p></li>
+				<li><p class="tabbed">Weizmann Institute of Science, Israel</p></li>
+				<li><p class="tabbed">University of Tel Aviv, Israel</p></li>
+				<li><p class="tabbed">Highway 6, Israel</p></li>
+				<li><p class="tabbed">FIFA World Cup Football Stadiums, Germany</p></li>
+				<li><p class="tabbed">Critical Infrastructure of the European Union in Germany and Slovakia</p></li>
+			</ul>
+		</div>
+		<div>
+			<h4>Capabilities at a Glance</h4>
+			<br>
+			<p>Command and Control:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">Dynamic GIS map with custom points of interest and layers, flexibly configurable incident categories, and site plans</p></li>
+				<li><p class="tabbed">Computer-aided dispatch</p></li>
+				<li><p class="tabbed">Drag-and-drop video fall facilities</p></li>
+				<li><p class="tabbed">Sophisticated incident management, including notifications, subscriptions, escalations and de-escalations, and unique features supporting investigations</p></li>
+				<li><p class="tabbed">Dynamic business and technical reports, and statistics</p></li>
+				<li><p class="tabbed">Powerful analytics, such as market-leading license plate recognition, strategic perimeter protection, and many more</p></li>
+				<li><p class="tabbed">Dynamic plugin for additional analytics fitting each purpose</p></li>
+			</ul>
+			<br>
+			<p>Sensors:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">Cameras: fixed, PTZ, thermal, special purpose</p></li>
+				<li><p class="tabbed">Intrusion detection, fence sensors, network sensors, etc.</p></li>
+				<li><p class="tabbed">Intelligent PTZ moving and zooming in on events</p></li>
+				<li><p class="tabbed">On-demand: native integration of any kind of sensors (e.g. gunshot detection)</p></li>
+			</ul>
+			<br>
+			<p>Additional:</p>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">Powerful mobile features</p></li>
+				<li><p class="tabbed">Open and easy integration with any required third-party system</p></li>
+				<li><p class="tabbed">Compliance with leading IT methodologies and standards</p></li>
+				<li><p class="tabbed">Support and consultancy included</p></li>
+			</ul>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="topic-boxes" id="wide-box">
+		<div>
+			<h4>Your Benefits</h4>
+			<br>
+			<ul class="bulleted">
+				<li><p class="tabbed">Fully-integrated ecosystem that allows system integrators to focus on their core business: CRISP includes the full range of command and control, including VMS, GIS map, incident management and reports and statistics, and cameras fitting each purpose. Thus, system integrators and prime contractors can focus on project management, installations, consultancy, and services.</p></li>
+				<li><p class="tabbed">Flexibility and changeability to adapt to any environment: outdoor, indoor, extreme weather or terrain conditions, crowded or non-crowded environments, dense urban areas with high-speed network or emerging cities with heterogeneous, unstable network connections, and many more.</p></li>
+				<li><p class="tabbed">Due to its flexible architecture, CRISP can be integrated into any IT landscape, be it monolithic or highly standardized.</p></li>
+				<li><p class="tabbed">Truly intuitive: Easy to install, easy to configure, easy to use.</p></li>
+			</ul>
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+
+<!-- FOOTER -->
+
+	<div class="footer">
+		<p>GROUP 48 LTD | &copy; 2020 | All rights reserved.</p>
+	</div>
+
+</body>
+</html>
