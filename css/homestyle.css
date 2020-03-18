@@ -269,6 +269,7 @@ p {
 	color: white;
 	background-color: black;
 	-webkit-transition:all .2s ease;
+  -moz-transition:all .3s;
 	transition:all .2s ease;
 	transition-timing-function: ease-out;
 	outline:0;
@@ -279,4 +280,6 @@ p {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+  -webkit-transition:all .2s ease;
+  -moz-transition:all .3s;
 }
